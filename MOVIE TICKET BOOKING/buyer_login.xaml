@@ -1,0 +1,24 @@
+﻿<Window x:Class="MOVIE_TICKET_BOOKING.buyer_login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MOVIE_TICKET_BOOKING"
+        mc:Ignorable="d"
+        Title="Buyer Login" Height="700" Width="900" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="True">
+    <Grid>
+        <TextBlock Text="Buyer Login" FontSize="35" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,389"/>
+
+        <TextBlock Text="Username:" Margin="141,101,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="tbUsername" Margin="300,100,200,0" VerticalAlignment="Top" FontSize="18"/>
+
+        <TextBlock Text="Password:" Margin="141,151,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18"/>
+        <PasswordBox x:Name="tbPassword" Margin="300,150,200,0" VerticalAlignment="Top" FontSize="18"/>
+
+        <Button x:Name="btnLogin" Content="Login" Background="#1377ec" Foreground="White" BorderBrush="Black" BorderThickness="0" Width="150" Height="50" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,200,0,0" Click="btnLogin_Click"/>
+
+        <Button x:Name="btnSignup" Content="Signup" Background="#1377ec" Foreground="White" BorderBrush="Black" BorderThickness="0" Width="150" Height="50" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="470,200,0,0" Click="btnSignup_Click"/>
+
+        <Button x:Name="btnBack" Content="Back" Background="#1377ec" Foreground="White" BorderBrush="Black" BorderThickness="0" Width="150" Height="50" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="640,200,0,0" Click="btnBack_Click"/>
+    </Grid>
+</Window>
